@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "index.js",
   "description": "Helper library for Ecommerce app",
@@ -27,14 +27,14 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "files": [
+    "build",
+    "src"
+  ],
   "exports": {
     ".": {
       "import": "./src/index.js",
       "require": "./src/index.js"
-    },
-    "./icons": {
-      "import": "./esm/icons/index.js",
-      "require": "./cjs/icons/index.js"
     }
   },
   "types": "./src/index.d.ts",
